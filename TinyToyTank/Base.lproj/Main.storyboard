@@ -25,13 +25,15 @@
                                 <state key="normal" image="ConnonFire"/>
                                 <connections>
                                     <action selector="ConnonFirePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PxS-9a-DdQ"/>
-                                    <action selector="TurretRightPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NfQ-yp-RbX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9f8-4q-ygi">
                                 <rect key="frame" x="311" y="643" width="83" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="TurretRight"/>
+                                <connections>
+                                    <action selector="TurretRightPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gSi-9E-j6x"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IU7-cM-9P4">
                                 <rect key="frame" x="311" y="743" width="83" height="83"/>
